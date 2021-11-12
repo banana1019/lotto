@@ -38,7 +38,6 @@ function nums() {
 
 // 2. 숫자 6개 뽑기
 function randomNum(lottoArr) {
-
     const lottoResult = []
 
     for (let i = 0; i < 6; i++) {
