@@ -44,8 +44,8 @@ function randomNum(lottoArr) {
 
         const index = parseInt(Math.random() * lottoArr.length)
 
+        lottoResult.push(lottoArr[index]) // lottoResult 배열에 요소 추가하기
         lottoArr.splice(index, 1) // 배열에서 요소 1개 제거
-        lottoResult.push(index) // lottoResult 배열에 요소 추가하기
     }
 
     return lottoResult
